@@ -1,4 +1,4 @@
-# lottery-ticket-hypothesis
+# Theys96/lottery-ticket-hypothesis
 Experimentation setup for the "Lottery Ticket" hypothesis for neural networks.
 
 ---
@@ -7,5 +7,8 @@ The lottery ticket hypothesis refers to an idea relating to neural network pruni
 
 Consider the following figure.
 
-![](report/figures/lotterytickets.pdf)
+![](report/results.png)
 
+We can interpret the figure above as this: When leveraging the "lottery ticket" principle after pruning the selected neural network model (LeNet) down to -say- 5% density, we achieve a higher test accuracy (compared to the original fully dense model or another pruning approach). The subject dataset is MNIST, by the way. 
+
+Check out our complete [report](report/An Analysis of Neural Network Pruning in Relation to the Lottery Ticket Hypothesis -- Havinga Sawnhey.pdf) for more information.
