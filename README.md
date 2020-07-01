@@ -11,4 +11,4 @@ Consider the following figure.
 
 We can interpret the figure above as this: When leveraging the "lottery ticket" principle after pruning the selected neural network model (LeNet) down to -say- 5% density, we achieve a higher test accuracy (compared to the original fully dense model or another pruning approach). The subject dataset is MNIST, by the way. 
 
-Check out our complete [report](report/An Analysis of Neural Network Pruning in Relation to the Lottery Ticket Hypothesis -- Havinga Sawnhey.pdf) for more information.
+Check out our complete [report](report/report.pdf) for more information.
